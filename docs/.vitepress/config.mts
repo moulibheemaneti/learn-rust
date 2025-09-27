@@ -16,6 +16,7 @@ export default defineConfig({
     "chapter01/11-installation.md": "chapter/1/installation.md",
     "chapter01/12-hello-world.md": "chapter/1/hello-world.md",
     "chapter01/13-hello-cargo.md": "chapter/1/hello-cargo.md",
+    "chapter02/guessing-game.md": "chapter/2/guessing-game.md",
   },
 
   themeConfig: {
@@ -49,6 +50,7 @@ export default defineConfig({
               { text: '1.3. Hello, Cargo!', link: '/chapter/1/hello-cargo' },
             ]
           },
+          { text: 'Chapter 2', link: '/chapter/2/guessing-game' },
         ]
       }
     ],

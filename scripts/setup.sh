@@ -6,42 +6,9 @@
 # The -e flag enables interpretation of backslash escapes (like \033 for colors) in the string.
 '
 
-# Colors
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[0;33m'
-BLUE='\033[0;34m'
-MAGENTA='\033[0;35m'
-CYAN='\033[0;36m'
-BOLD='\033[1m'
-NC='\033[0m'
-
-# Decorative line
-print_line() {
-  echo -e "${MAGENTA}────────────────────────────────────────────────────────────${NC}"
-}
-
-# Section header
-section() {
-  print_line
-  echo -e "${BOLD}${BLUE}$1${NC}"
-  print_line
-}
-
-# Success message
-success() {
-  echo -e "${GREEN}${BOLD}✔ $1${NC}"
-}
-
-# Warning message
-warn() {
-  echo -e "${YELLOW}${BOLD}⚠ $1${NC}"
-}
-
-# Error message
-fail() {
-  echo -e "${RED}${BOLD}✖ $1${NC}"
-}
+# Source common utilities
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/common.sh"
 
 # NVM setup
 section "Checking for nvm & .nvmrc Node version"
