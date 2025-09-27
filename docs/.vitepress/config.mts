@@ -17,6 +17,10 @@ export default defineConfig({
     "chapter01/12-hello-world.md": "chapter/1/hello-world.md",
     "chapter01/13-hello-cargo.md": "chapter/1/hello-cargo.md",
     "chapter02/guessing-game.md": "chapter/2/guessing-game.md",
+    "chapter03/31-variables-and-mutability.md": "chapter/3/variables-and-mutability.md",
+    "chapter03/32-data-types.md": "chapter/3/data-types.md",
+    "chapter03/33-functions.md": "chapter/3/functions.md",
+    "chapter03/34-comments.md": "chapter/3/comments.md",
   },
 
   themeConfig: {
@@ -51,6 +55,17 @@ export default defineConfig({
             ]
           },
           { text: 'Chapter 2', link: '/chapter/2/guessing-game' },
+          {
+            text: 'Chapter 3',
+            collapsible: true,
+            collapsed: false,
+            items: [
+              { text: '3.1. Variables and Mutability', link: '/chapter/3/variables-and-mutability' },
+              { text: '3.2. Data Types', link: '/chapter/3/data-types' },
+              { text: '3.3. Functions', link: '/chapter/3/functions' },
+              { text: '3.4. Comments', link: '/chapter/3/comments' },
+            ]
+          },
         ]
       }
     ],
