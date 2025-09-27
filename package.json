@@ -8,6 +8,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "clean-binaries": "bash $(git rev-parse --show-toplevel)/scripts/clean-binaries.sh"
   }
 }

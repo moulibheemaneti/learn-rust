@@ -17,3 +17,8 @@ node_modules
 .pnp.*
 docs/.vitepress/dist
 docs/.vitepress/cache
+
+code/**/target/
+
+code/chapter01/hello_world/*
+!code/chapter01/hello_world/main.rs

@@ -2,7 +2,7 @@
 
 ## Keywords
 
-1. **rustup**: The Rust toolchain installer and version manager. It allows you to easily install, update, and manage different versions of Rust and associated tools.
+1. **rustup**: The Rust toolchain installer and version manager. It allows you to easily install, update, and manage different versions of Rust and associated tools. It has `cargo` by default in it.
 
 2. **linker**: Joins compiled code into a single file. If you see linker errors, install a C compiler (it includes a linker), as some Rust packages need it.
 

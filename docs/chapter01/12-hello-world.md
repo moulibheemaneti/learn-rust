@@ -6,6 +6,7 @@ Ends with `.rs` extension.
 ## Binary Exectuatble file
 To generate a corresponding executable binary file:
 ```bash
+# rustc <file_name>.rs
 rustc main.rs
 ```
 
@@ -16,6 +17,7 @@ rustc main.rs
 ## Assembly file
 To generate a corresponding assembly file:
 ```bash
+# rustc --emit asm <file_name>.rs
 rustc --emit asm main.rs
 ```
 
@@ -41,3 +43,7 @@ rustc --emit asm main.rs
 4. main function is the entry point for a executable rust program.
 
 5. If you see an exclamation mark `!` after a name (like `println!`), it means you are calling a macro, not a regular function. Macros work differently from functions in Rust.
+
+6. Rust compiles programs `ahead-of-time`s into standalone executables that run without needing Rust installed.
+
+7. In contrast, languages like Python or Ruby require their interpreter to run code.
