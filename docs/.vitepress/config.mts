@@ -21,6 +21,9 @@ export default defineConfig({
     "chapter03/32-data-types.md": "chapter/3/data-types.md",
     "chapter03/33-functions.md": "chapter/3/functions.md",
     "chapter03/34-comments.md": "chapter/3/comments.md",
+    "chapter04/41-ownership.md": "chapter/4/ownership.md",
+    "chapter04/42-references-and-borrowing.md": "chapter/4/references-and-borrowing.md",
+    "chapter04/43-slice-type.md": "chapter/4/slice-type.md",
   },
 
   themeConfig: {
@@ -66,6 +69,17 @@ export default defineConfig({
               { text: '3.4. Comments', link: '/chapter/3/comments' },
             ]
           },
+          {
+            text: 'Chapter 4',
+            collapsible: true,
+            collapsed: false,
+            items: [
+              { text: '4.1. Ownership', link: '/chapter/4/ownership' },
+              { text: '4.2. References and Borrowing', link: '/chapter/4/references-and-borrowing' },
+              { text: '4.3. Slice Type', link: '/chapter/4/slice-type' },
+            ]
+          },
+          { text: 'Miscellaneous', link: '/miscellaneous' },
         ]
       }
     ],
