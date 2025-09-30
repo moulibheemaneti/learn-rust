@@ -209,7 +209,7 @@ What if there are multiple parameters? Will we be returning each and every param
 
 ### Solution
 
-Answer is `References`. You will take a deep dive in the [next chapter](./42-references-and-borrowing.md).
+Answer is `References`. You will take a deep dive in the [next chapter](/chapter/4/references-and-borrowing).
 
 ## Questions
 
