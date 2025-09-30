@@ -27,6 +27,9 @@ export default defineConfig({
     "chapter05/51-defining-and-instantiating-struct.md": "chapter/5/defining-and-instantiating-struct.md",
     "chapter05/52-example-struct.md": "chapter/5/example-struct.md",
     "chapter05/53-method-syntax.md": "chapter/5/method-syntax.md",
+    "chapter06/61-defining-an-enum.md": "chapter/6/defining-an-enum.md",
+    "chapter06/62-match-control-flow.md": "chapter/6/match-control-flow.md",
+    "chapter06/63-concise-control-flow.md": "chapter/6/concise-control-flow.md",
   },
 
   themeConfig: {
@@ -90,6 +93,16 @@ export default defineConfig({
               { text: '5.1. Defining and Instantiating Structs', link: '/chapter/5/defining-and-instantiating-struct' },
               { text: '5.2. Example Struct', link: '/chapter/5/example-struct' },
               { text: '5.3. Method Syntax', link: '/chapter/5/method-syntax' },
+            ]
+          },
+          {
+            text: 'Chapter 6',
+            collapsible: true,
+            collapsed: false,
+            items: [
+              { text: '6.1. Defining an Enum', link: '/chapter/6/defining-an-enum' },
+              { text: '6.2. Match Control Flow', link: '/chapter/6/match-control-flow' },
+              { text: '6.3. Concise Control Flow', link: '/chapter/6/concise-control-flow' },
             ]
           },
           { text: 'Miscellaneous', link: '/miscellaneous' },
