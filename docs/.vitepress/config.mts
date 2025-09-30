@@ -24,6 +24,9 @@ export default defineConfig({
     "chapter04/41-ownership.md": "chapter/4/ownership.md",
     "chapter04/42-references-and-borrowing.md": "chapter/4/references-and-borrowing.md",
     "chapter04/43-slice-type.md": "chapter/4/slice-type.md",
+    "chapter05/51-defining-and-instantiating-struct.md": "chapter/5/defining-and-instantiating-struct.md",
+    "chapter05/52-example-struct.md": "chapter/5/example-struct.md",
+    "chapter05/53-method-syntax.md": "chapter/5/method-syntax.md",
   },
 
   themeConfig: {
@@ -77,6 +80,16 @@ export default defineConfig({
               { text: '4.1. Ownership', link: '/chapter/4/ownership' },
               { text: '4.2. References and Borrowing', link: '/chapter/4/references-and-borrowing' },
               { text: '4.3. Slice Type', link: '/chapter/4/slice-type' },
+            ]
+          },
+          {
+            text: 'Chapter 5',
+            collapsible: true,
+            collapsed: false,
+            items: [
+              { text: '5.1. Defining and Instantiating Structs', link: '/chapter/5/defining-and-instantiating-struct' },
+              { text: '5.2. Example Struct', link: '/chapter/5/example-struct' },
+              { text: '5.3. Method Syntax', link: '/chapter/5/method-syntax' },
             ]
           },
           { text: 'Miscellaneous', link: '/miscellaneous' },
