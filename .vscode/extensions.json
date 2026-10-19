@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "aaron-bond.better-comments",
+        "fanaticpythoner.better-todo-tree",
+        "oven.bun-vscode",
+        "pucelle.vscode-css-navigation",
+        "usernamehw.errorlens",
+        "dbaeumer.vscode-eslint"
+    ]
+}

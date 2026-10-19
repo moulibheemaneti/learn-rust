@@ -1,15 +1,17 @@
 {
   "name": "learn-rust",
-  "packageManager": "yarn@4.10.3",
+  "packageManager": "bun@1.4.3",
   "devDependencies": {
     "vitepress": "^1.6.4",
-    "vue": "^3.5.22"
+    "vue": "^3.5.44"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:clean": "rm -rf docs/.vitepress/cache docs/.vitepress/dist",
+    "clean-web": "rm -rf node_modules .dist .output",
+    "full-clean-web": "rm -rf node_modules .dist .output bun.lock",
     "clean-binaries": "bash $(git rev-parse --show-toplevel)/scripts/clean-binaries.sh",
     "new-chapter": "bash $(git rev-parse --show-toplevel)/scripts/new-chapter.sh"
   }
