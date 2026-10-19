@@ -1,0 +1,4 @@
+[run]
+# Run package.json scripts and package binaries (like vitepress) with Bun,
+# even when they declare `#!/usr/bin/env node` and Node is installed.
+bun = true

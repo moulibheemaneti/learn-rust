@@ -20,7 +20,7 @@ cd learn-rust
 
 This setup includes:
 1. Installing Rust and Cargo
-2. Installing Node.js and dependencies
+2. Installing Bun and dependencies
 3. Setting up VitePress
 
 To run the setup script:
@@ -31,7 +31,7 @@ To run the setup script:
 
 ### 4. Run the Development Server
 ```bash
-yarn docs:dev
+bun docs:dev
 ```
 
 ## Executing Rust Programs
